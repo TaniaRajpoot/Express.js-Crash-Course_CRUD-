@@ -5,13 +5,12 @@ const port = process.env.port || 8000;
 
 const app = express();
 
-
 //body praser  middleware
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
 // Routes
-app.use("/api/posts", posts);
+app.use('/api/posts', posts);
 
 
 
