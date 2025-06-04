@@ -5,14 +5,16 @@
   "type": "module",
   "scripts": {
     "start": "node server",
-    "dev": "node --watch --env-file=.env server"
+    "dev": "nodemon server"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "colors": "^1.4.0",
     "express": "^4.21.2",
-    "express_course": "file:"
+    "express_course": "file:",
+    "nodemon": "^3.1.10"
   }
 }
